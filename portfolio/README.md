@@ -34,6 +34,11 @@ Please code responsibly referencing, https://github.com/ryanmcdermott/clean-code
 6. The about page is another page with a picture of the person and then a paragraph, both are centered in the middle. The background should be a mixed color gradient in css that is user friendly.
 7. The contact page is a form that includes the following fields, name, email and text to submit. This form should send an email to the portfolio owner.
 
+## Additional Ideas - Put idea in and leave your name
+Example: Animated logo - Chris Sean
+
+
+
 # Add ons (Advanced)
 1. Webpack bundling for React
 2. Add react router for menu links
