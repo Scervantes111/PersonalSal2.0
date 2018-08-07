@@ -5,6 +5,15 @@
 
 * [React](https://reactjs.org/) - React
 * [Create-React-App](https://github.com/facebook/create-react-app) - React Starter
+* [Three.js](https://threejs.org/) - A JavaScript 3D library
+
+## IMPORTANT, PLEASE READ THIS BEFORE CONTRIBUTING.
+
+We are following the first folder structure as mentioned in this React page.
+Grouping by features or routes.
+https://reactjs.org/docs/faq-structure.html
+
+Please code responsibly referencing the following ES6 Standards, https://github.com/ryanmcdermott/clean-code-javascript
 
 ## Collaborate
 
@@ -15,14 +24,6 @@ Use "npm install" to add the dependencies.
 Use "npm run" to start the React page.
 Open with your favourite code editor.
 ```
-
-## Software Design approach and programming styles
-
-We are following the first folder structure as mentioned in this React page.
-Grouping by features or routes.
-https://reactjs.org/docs/faq-structure.html
-
-Please code responsibly referencing, https://github.com/ryanmcdermott/clean-code-javascript
 
 ## To do
 
