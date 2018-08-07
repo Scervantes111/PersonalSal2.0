@@ -1,9 +1,2 @@
 //example scss import
-@import "partial";
-
-// You can write normally css like so and it'll still compile it in ./src/common/main.css.
-//Make sure to do "yarn run sass" and it'll automatically compile your code to ./src/common/main.css on change.
-//the current homepage uses this right now.
-body {
-  font-family: Helvetica;
-}
+@import "MASTER-DIR";

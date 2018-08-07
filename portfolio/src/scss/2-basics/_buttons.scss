@@ -1,0 +1,21 @@
+/*
+Button Styling
+- SASS Methods Are Used e.g. Lighten(), it well lightens the colour defined in the
+- Nesting Is Used To Demonstrate Specificity
+- Mixins Are Used To Reduce The Code From Being DRY
+*/
+
+
+//Default Styling For Buttons
+//Every Button Extends From The Default Properties
+%button{
+  @include border-radius (15px);  //Background Mixin With 1 Arguement
+  @include border (0px, none, none);  //Background Mixin With 1 Arguement
+  @include text-align (center); // Text Align Mixin With 1 Arguement
+  @include text-transform(uppercase); //Text Transfrom With 1 Arguement
+
+  //On Hover
+  &:hover {
+    @include button-hover(none, $white, pointer);
+  }
+}
