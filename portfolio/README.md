@@ -6,6 +6,7 @@
 * [React](https://reactjs.org/) - React
 * [Create-React-App](https://github.com/facebook/create-react-app) - React Starter
 * [Three.js](https://threejs.org/) - A JavaScript 3D library
+* [Adobe XD](https://www.adobe.com/products/xd.html) - Website Design and Prototyper
 
 ## IMPORTANT, PLEASE READ THIS BEFORE CONTRIBUTING.
 
@@ -14,6 +15,8 @@ Grouping by features or routes.
 https://reactjs.org/docs/faq-structure.html
 
 Please code responsibly referencing the following ES6 Standards, https://github.com/ryanmcdermott/clean-code-javascript
+
+The designs can be found on here: https://xd.adobe.com/view/17ef4cfc-6d31-49e3-a270-5476ce25baa0
 
 ## Collaborate
 
