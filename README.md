@@ -1,6 +1,7 @@
 # devsLife
+
 #devsLife open source project
 
-Portfolio
+## Portfolio
 
-A template portfolio built in React by the devslife community, free to modify and use.
+### A template portfolio built in React by the devslife community, free to modify and use.
