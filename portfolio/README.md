@@ -1,11 +1,12 @@
 # Portfolio
+## Devslife collab portfolio template using React
 
 ## Built With
 
 * [React](https://reactjs.org/) - React
 * [Create-React-App](https://github.com/facebook/create-react-app) - React Starter
 
-## Devslife collab portfolio template using React
+## Collaborate
 
 ```
 To begin participating, git clone this repo.
