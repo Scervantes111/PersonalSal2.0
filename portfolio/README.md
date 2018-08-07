@@ -10,6 +10,8 @@
 
 ## IMPORTANT, PLEASE READ THIS BEFORE CONTRIBUTING.
 
+Not sure how to use git? read this, it makes it so easy: http://rogerdudler.github.io/git-guide/
+
 We are following the first folder structure as mentioned in this React page.
 Grouping by features or routes.
 https://reactjs.org/docs/faq-structure.html
