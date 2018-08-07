@@ -1,13 +1,19 @@
 # Portfolio
 
+## Built With
+
+* [React](https://reactjs.org/) - React
+* [Create-React-App](https://github.com/facebook/create-react-app) - React Starter
+
 ## Devslife collab portfolio template using React
 
+```
 To begin participating, git clone this repo.
-
 Then go the Portfolio directory.
 Use "npm install" to add the dependencies.   
 Use "npm run" to start the React page.
 Open with your favourite code editor.
+```
 
 ## Software Design approach and programming styles
 
