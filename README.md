@@ -10,9 +10,16 @@ Of course, a lot of people are new, mistakes will be made and lessons will be le
 
 But that is the exact point! its a learning experience. Through getting involved on this repository and the devslife discord community we can learn, build and improve on things together.
 
-We will treat this as a mock-up to real life, helping you get comfortable for real work at real jobs where there will be many more developers.
+We will treat this as a mock-up to real life, helping you get comfortable for real work at real jobs where there will be many more developers, each at their own experience levels with their own quirks and ways of doing things.
 
 And what better way than to contribute to the open source community and get your github profile activity looking healthy.
+
+In a nutshell, we will try and approach each project in a way that:
+
+- Makes developers code using a standard agreed approach.
+- Makes developers master git to add, update and delete code collaboratively.
+- Makes developers refactor and explain improved code.
+- Makes developers interact in a structured manner before coding features.
 
 # How to get involved
 
