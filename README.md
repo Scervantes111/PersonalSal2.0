@@ -14,6 +14,10 @@ We will treat this as a mock-up to real life, helping you get comfortable for re
 
 And what better way than to contribute to the open source community and get your github profile activity looking healthy.
 
+# How to get involved
+
+Within the discord community, please tag chris sean in your comment and pass him your username.
+
 # Current Projects
 
 ## Portfolio
