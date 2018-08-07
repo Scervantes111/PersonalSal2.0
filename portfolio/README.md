@@ -16,7 +16,7 @@ Use "npm run" to start the React page.
 Open with your favourite code editor.
 ```
 
-## Software Design approach and programming styles
+## Software Design approach and programming styles
 
 We are following the first folder structure as mentioned in this React page.
 Grouping by features or routes.
