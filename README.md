@@ -18,7 +18,7 @@ And what better way than to contribute to the open source community and get your
 
 Within the discord community, please tag chris sean in your comment and pass him your username.
 
-If you get stuck please ask in the Devslife Open Source Projects channels for help.
+If you get stuck please ask in the Devslife Open Source Projects channels for help or any of the admins.
 
 # Current Projects
 
