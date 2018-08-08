@@ -1,2 +1,254 @@
+/*
+MASTER-DIR  Styling
+- Imports All Of The Indexes
+- The _MASTER-DIR Its Then Imported To The APP.scss
+- They Are Imported In Order, Other Than Mixins Which Needs To Be Firsted
+- Mixins Need To Be First Becuase Mixins Are Used In Various Sections, Mixins Cant Be Imported Last.
+- No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
+*/
+/*
+Basics Index
+- This File Imports All Partials (_[Name.scss]) Into This Index File
+-This File Gets Imported Into The _MASTER-DIR.scss
+ */
+/*
+Animation Mixin
+- Scale Animation With Browser Webkits For Compatability
+- Variables Are Essentialy Placeholders For Values Which Will Go There
+ */
+/*
+Border Radius Mixin
+- Passes In Some Variable To Make It Dynamic
+- Browser Compatability Is Considered When Using Border Radius
+- Variables Allows The % To Change Everytime Its Called
+ */
+/*
+Background Image Mixin
+- Allows The Image To Be Full Width
+- The Background Image Is Also 100 Of The Vh Of The Device
+- No Variables Needed As Its Not Dynamic
+ */
+/*
+Button  Styling
+- Variables Are Used To Make The Values Unique
+- Common Styling For Button Is Defined And Used In The Buttons Partial In Basics
+- Button Hover Is Also Defined Here
+*/
+/*
+Border  Styling
+- Variables Are Used To Make The Values Unique
+- 3 Variables Are Passed In A Width, Style And Colour
+*/
+/*
+Text Style Mixins
+- Alignment Mixin
+- Transform Mixin
+- Each Mixin Can Provide A Wide Variety Of Functionality e.g. text-align can make text go to the left, right and center.
+- As For The Text Transform Mixin That Can Make Text Capitalized, Uppercase, Lowercase etc
+*/
+/*
+Plugins Index
+- This File Imports All Partials (_[Name.scss]) Into This Index File
+-This File Gets Imported Into The _MASTER-DIR.scss
+- No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
+ */
+/*
+Tools Index
+- This File Imports All Partials (_[Name.scss]) Into This Index File
+-This File Gets Imported Into The _MASTER-DIR.scss
+- No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
+ */
+/*
+Font Styling
+- The Nunito Script Was Aquired From https://fonts.googleapis.com/css?family=Nunito
+- The Kaushan Script Was Aquired From Aquired From Script From https://fonts.google.com/specimen/Kaushan+Script
+*/
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofIOuaBXso.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofIO-aBXso.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofINeaB.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url(https://fonts.gstatic.com/s/kaushanscript/v6/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url(https://fonts.gstatic.com/s/kaushanscript/v6/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/*
+Variables
+- The Cool And Warm Colours Aquired From https://github.com/DevTips/DevTips-Starter-Kit/blob/master/assets/css/1-tools/_vars.sass
+- There Dynamic, One Change Here Will Change The Property
+- E.g. If $Aqua Was Changed To Red Then Where THat Varialbe Is Referenced It Would Be Updated
+*/
+/*
+Basics Index
+- This File Imports All Partials (_[Name.scss]) Into This Index File
+-This File Gets Imported Into The _MASTER-DIR.scss
+- No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
+ */
+/*
+Alert Message Styling
+- Styling The Alert Messages
+- Connect-Flash Is Used To Display The Message
+ */
+/*
+Body Styling
+- Font Family From Google Fonts
+- Position Relative Is Used For ScrollSpy
+*/
 body {
-  font-family: Helvetica; }
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+/*
+Button Styling
+- SASS Methods Are Used e.g. Lighten(), it well lightens the colour defined in the
+- Nesting Is Used To Demonstrate Specificity
+- Mixins Are Used To Reduce The Code From Being DRY
+*/
+/*
+Form Styling
+- Border Mixin Is Used For Valid And Invalid
+- Textarea Styling Using Global Tag
+- Input, Subject And Textarea Tag Has A Cursor Point To Show Its Clickable
+*/
+/*
+Image Styling
+- Image Class Is Used On The Project Previews
+- The Images Are Fulkl Width Of There Column
+*/
+/*
+Anchor Styling Notes:
+- Global Anchor Tag
+- Social Links Are Styled Here
+- Nav Links Are Styled Here
+- Skill Links Are Defined Here
+- If An Anchor Tag Doesnt Have A Stlye By Default It Will Use The Proprties  Defined
+*/
+/*
+Section Styling
+- Padding For Sections Used On The Page
+*/
+/*
+Selection Styling
+- Takes Affect When A Text Or Image Is Highlihted
+- Pale Yellow Is The Highlihted Colour For Text
+- None Means The Background Is Transparent
+*/
+::selection {
+  background: #FFF498; }
+
+::-moz-selection {
+  background: #FFF498; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: #FFF498; }
+
+/*
+Typography Styling
+- Aquired From Devtips Starter Kit (https://github.com/DevTips/DevTips-Starter-Kit/blob/master/assets/css/2-basics/_typography.sass)
+- Typography Is A Seperate File To Handle The Size Of Various Of Heading And Paragrpahs
+- By Default Headings Are Bold
+- Media Quieres Are Used To Change Size Depending On The Screen Size
+*/
+.gigantic, .huge, .large, .bigger, .big,
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  text-align: center; }
+
+.gigantic {
+  font-size: 82.5pt;
+  line-height: 1.09;
+  letter-spacing: -2px; }
+
+.huge, h1 {
+  font-size: 51pt;
+  line-height: 1.05;
+  letter-spacing: -1px; }
+
+.large, h2 {
+  font-size: 30pt;
+  line-height: 1.14; }
+
+.bigger, h3 {
+  font-size: 20pt;
+  line-height: 1.38; }
+
+.big, h4 {
+  font-size: 16.5pt;
+  line-height: 1.38; }
+
+.navbar-font {
+  font-size: 15pt; }
+
+.small, h5 {
+  font-size: 7.5pt;
+  line-height: 1.2; }
+
+p {
+  margin: 0 0 20px 0;
+  font-size: 14pt; }
+
+@media (max-width: 767px) {
+  h1, h2, .huge, .large {
+    font-size: 30pt; }
+  h3 {
+    font-size: 15pt; } }
+
+@media (max-width: 400px) {
+  .large {
+    font-size: 40pt; } }
+
+/*
+Basics Index
+- This File Imports All Partials (_[Name.scss]) Into This Index File
+-This File Gets Imported Into The _MASTER-DIR.scss
+- No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
+ */
+/*
+Footer Styling
+- Nesting Is Used
+Footer Is A Global Tag, Any Tag Which Uses <footer> Will Get Styled
+*/
+/*
+Basics Index
+- This File Imports All Partials (_[Name.scss]) Into This Index File
+-This File Gets Imported Into The _MASTER-DIR.scs
+- No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
+ */
