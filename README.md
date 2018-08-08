@@ -29,10 +29,18 @@ If you get stuck please ask in the Devslife Open Source Projects channels for he
 
 Not sure how to use git? read this, it makes it so easy: http://rogerdudler.github.io/git-guide/
 
-# Current Projects
+# Devslife Projects
 
 ## Portfolio
 
 ###### A template portfolio built in React by the devslife community, further information in the folder read me. 
 
 * [Porfolio Repo](https://github.com/RealChrisSean/devsLife/tree/master/portfolio) - React, ES6, Three.js and Software Principles
+
+# Community Projects
+
+## Stackoverflow bot
+
+###### A discord bot developed and maintained by Rib.
+
+* [Stackoverflow Bot](https://github.com/ribyaboi/stackoverflow-bot)
