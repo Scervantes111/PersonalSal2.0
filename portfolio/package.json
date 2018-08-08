@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.9.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
   "devDependencies": {
+    "node-sass": "^4.9.2",
     "concurrently": "^3.6.1",
     "react-scripts": "1.1.4"
   },
