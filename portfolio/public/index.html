@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <!--
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -19,14 +20,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -36,5 +38,82 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+  <script src="./three.min.js"></script>
+  <script>
+    var container, stats;
+    var camera, scene, renderer;
+    var mesh, zmesh, lightMesh, geometry;
+    var mouseX = 0, mouseY = 0;
+    var windowHalfX = window.innerWidth / 2;
+    var windowHalfY = window.innerHeight / 2;
+    document.addEventListener('mousemove', onDocumentMouseMove, false);
+    init();
+    animate();
+    function init() {
+      container = document.createElement('div');
+      document.body.appendChild(container);
+      camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 10000);
+      camera.position.z = 3200;
+      scene = new THREE.Scene();
+      scene.background = new THREE.Color(0x000000);
+
+      for (var i = 0; i < 1000; i++) {
+        let geometry = new THREE.BoxGeometry(10, 10, 10);
+        let material = new THREE.MeshStandardMaterial({
+          side: THREE.DoubleSide,
+          color: 0x63D1F4,
+          emissive: 0x63D1F4,
+          emissiveIntensity: 0.9,
+          metalness: 0.5,
+          roughness: 0.3
+        });
+
+        let cube = new THREE.Mesh(geometry, material);
+
+        cube.position.x = Math.random() * 10000 - 5000;
+        cube.position.y = Math.random() * 10000 - 5000;
+        cube.position.z = Math.random() * 10000 - 5000;
+        cube.rotation.x = Math.random() * 2 * Math.PI;
+        cube.rotation.y = Math.random() * 2 * Math.PI;
+        // cube.scale.x = cube.scale.y = cube.scale.z = Math.random() * 50 + 100;
+
+        scene.add(cube);
+      }
+
+      renderer = new THREE.WebGLRenderer();
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setSize(window.innerWidth, window.innerHeight);
+
+      container.appendChild(renderer.domElement);
+
+      window.addEventListener('resize', onWindowResize, false);
+    }
+
+    function onWindowResize() {
+      windowHalfX = window.innerWidth / 2;
+      windowHalfY = window.innerHeight / 2;
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    }
+
+    function onDocumentMouseMove(event) {
+      mouseX = (event.clientX - windowHalfX) * 10;
+      mouseY = (event.clientY - windowHalfY) * 10;
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+      render();
+    }
+
+    function render() {
+      camera.position.x += (mouseX - camera.position.x) * .05;
+      camera.position.y += (- mouseY - camera.position.y) * .05;
+      camera.lookAt(scene.position);
+      renderer.render(scene, camera);
+    }
+  </script>
+</body>
+
 </html>
