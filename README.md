@@ -43,4 +43,6 @@ Not sure how to use git? read this, it makes it so easy: http://rogerdudler.gith
 
 ###### A discord bot developed and maintained by Rib.
 
-* [Stackoverflow Bot](https://github.com/ribyaboi/stackoverflow-bot)
+* [Stackoverflow Bot](https://github.com/ribyaboi/stackoverflow-bot) - Maintained by Rib
+
+* [Coding-Gym](https://github.com/Takashiidobe/coding_gym) - Maintained by Takashi
