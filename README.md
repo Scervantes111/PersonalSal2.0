@@ -29,6 +29,14 @@ If you get stuck please ask in the Devslife Open Source Projects channels for he
 
 Not sure how to use git? read this, it makes it so easy: http://rogerdudler.github.io/git-guide/
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
 # Devslife Projects
 
 ## Portfolio
