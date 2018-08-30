@@ -20,6 +20,7 @@ In a nutshell, we will try and approach each project in a way that:
 - Makes developers master git to add, update and delete code collaboratively.
 - Makes developers refactor and explain improved code.
 - Makes developers interact in a structured manner before coding features.
+- Makes developers raise issues using a well formed approach.
 
 # How to get involved
 
