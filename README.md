@@ -24,8 +24,6 @@ In a nutshell, we will try and approach each project in a way that:
 
 # How to get involved
 
-Within the discord community, please tag chris sean in your comment and pass him your username.
-
 If you get stuck please ask in the Devslife Open Source Projects channels for help or any of the admins.
 
 Not sure how to use git? read this, it makes it so easy: http://rogerdudler.github.io/git-guide/
