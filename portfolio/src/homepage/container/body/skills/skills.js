@@ -37,7 +37,7 @@ const Skills = () => {
                 <div className='skillBox flip'>
                     <div className='skillContent front'>
                         <h2>
-                            <a href='/' alt='CSS 3'> CSS 3 </a>
+                            <a href='/' alt='JavaScript'> JavaScript </a>
                         </h2>
                     </div>
                     <div className='backContent'>
@@ -51,7 +51,7 @@ const Skills = () => {
                 <div className='skillBox flip'>
                     <div className='skillContent front'>
                         <h2>
-                            <a href='/' alt='CSS 3'> CSS 3 </a>
+                            <a href='/' alt='React'> React </a>
                         </h2>
                     </div>
                     <div className='backContent'>
@@ -65,7 +65,7 @@ const Skills = () => {
                 <div className='skillBox flip'>
                     <div className='skillContent front'>
                         <h2>
-                            <a href='/' alt='CSS 3'> CSS 3 </a>
+                            <a href='/' alt='Angular and Vue'> Angular/Vue </a>
                         </h2>
                     </div>
                     <div className='backContent back'>
@@ -77,9 +77,9 @@ const Skills = () => {
             </div>
             <div className='skillContainer'>
                 <div className='skillBox flip'>
-                    <div className='skillContent front'>
+                    <div className='skillContent front google'>
                         <h2>
-                            <a href='/' alt='CSS 3'> CSS 3 </a>
+                            <a href='/' alt='Google'> Google </a>
                         </h2>
                     </div>
                     <div className='backContent back'>
