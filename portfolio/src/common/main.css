@@ -187,10 +187,11 @@ Typography Styling
 - By Default Headings Are Bold
 - Media Quieres Are Used To Change Size Depending On The Screen Size
 */
+
+/*
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  text-align: center; }
+  font-weight: bold;}
 
 .gigantic {
   font-size: 82.5pt;
@@ -235,7 +236,7 @@ p {
   .large {
     font-size: 40pt; } }
 
-/*
+
 Basics Index
 - This File Imports All Partials (_[Name.scss]) Into This Index File
 -This File Gets Imported Into The _MASTER-DIR.scss

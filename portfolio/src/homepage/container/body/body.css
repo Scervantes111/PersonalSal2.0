@@ -1,0 +1,13 @@
+.bodyCenter {
+    margin-top: 30px;
+}
+
+.bodyAbout {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bodySkills {
+    margin-top: 60px;
+}

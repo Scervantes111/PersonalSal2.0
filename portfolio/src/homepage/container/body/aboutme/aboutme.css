@@ -1,0 +1,16 @@
+.App-intro {
+  padding-top: 20px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-size: 18px;
+  width: 600px;
+  }
+
+  .aboutHeader{
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutHeader h2 {
+    font-weight: 400;
+  }

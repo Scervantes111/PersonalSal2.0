@@ -1,0 +1,10 @@
+.ulList {
+    list-style-type: none;
+}
+
+.ulList li {
+    float: left;
+    list-style: none;
+    margin-left: 1em;
+    text-align: center;
+}
