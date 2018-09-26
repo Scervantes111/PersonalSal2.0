@@ -3,6 +3,14 @@
     flex-flow: row wrap;
     justify-content: center;
 }
+
+.skillContainer {
+    perspective: 1200px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
 .skillContainer:nth-child(1n){
     background-color: #f16529;
 }
@@ -24,8 +32,8 @@
 
 .skillBox {
     display: flex;
-    width: 750px;
-    height: 400px;
+    width: 375px;
+    height: 450px;
     border: 1px solid black;
 }
 
@@ -33,7 +41,7 @@
     width: 100%;
     text-align: center; 
     vertical-align: middle;
-    line-height: 400px;
+    line-height: 425px;
 }
 
 .skillContent a {
@@ -49,16 +57,10 @@
     margin: 0;
 }
 
-/* This is the flipping CSS */
-
-.skillContainer {
-    perspective: 1200px;
-    cursor: pointer;
+/* flip the pane when hovered */
+.skillContainer:hover .flip, .skillContainer.hover .flip {
+    transform: rotateY(180deg);
 }
-	/* flip the pane when hovered */
-	.skillContainer:hover .flip, .skillContainer.hover .flip {
-		transform: rotateY(180deg);
-	}
 
 
 /* flip speed goes here */
@@ -89,7 +91,7 @@
     width: 100%;
     text-align: center; 
     vertical-align: middle;
-    line-height: 400px;
+    line-height: 403px;
     background-color: white;
     color: black;
 }

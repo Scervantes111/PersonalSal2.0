@@ -1,0 +1,21 @@
+.contactAlign {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.contactImage {
+    margin-right: 275px;
+    margin-top: 2rem;
+}
+
+.contactImage img {
+    width: 350px;
+}
+
+.callback {
+    width: 700px;
+    margin-top: 25px;
+    font-size: 18px;
+}

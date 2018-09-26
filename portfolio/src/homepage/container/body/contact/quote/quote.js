@@ -4,9 +4,9 @@ import './quote.css';
 
 const Quote = () => {
     return (
-        <div>
+        <div className="quoteBody">
             <p>
-                test
+               ~ A Vision without action is just a dream, A dream that sits around to log is a waste of time. ~
             </p>
         </div>
     );
