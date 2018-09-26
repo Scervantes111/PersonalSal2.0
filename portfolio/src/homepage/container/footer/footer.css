@@ -1,3 +1,69 @@
 .footer {
-    background-color: purple;
+    display: flex;
+    background-color: #3f3f3f;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
 }
+
+.leftFooter {
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.middleFooter {
+    margin-top: 1rem;
+    font-size: 10px;
+    border-left: 1px solid white;
+    padding-left: 200px;
+    border-right: 1px solid white;
+    padding-right: 200px;
+    margin-bottom: 1rem;
+}
+
+.middleFooter div{
+    margin-bottom: 7px;
+}
+.middleFooter p {
+    margin-bottom: -5px;
+}
+.middleFooter div:nth-child(1){
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.rightFooter {
+    text-align: center;
+    margin-right: 5rem;
+}
+.rightFooter ul {
+    list-style: none;
+    margin-top: 35px;
+    padding: 0;
+}
+.rightFooter li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.rightFooter a {
+    display: block;
+    font-size: 1.4em;
+    margin: 0 7px;
+    text-decoration: none;
+    color: #eee;
+    transition: all .2s ease-in;
+}
+.rightFooter a:hover {
+    color: rgb(155, 153, 153);
+}
+
+.copyright {
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+/* Importing Icons for Social Media */
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');

@@ -9,7 +9,7 @@ const ContactMe = () => {
     return (
         <div className='contactAlign'>
             <div className='contactImage'>
-                <img src={Image} alt='image' />
+                <img src={Image} alt='Blue Sky' />
             </div>
             <ContactInfo />
             <div className='callback'>
