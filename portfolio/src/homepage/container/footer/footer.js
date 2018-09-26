@@ -26,10 +26,10 @@ const Footer = () => {
             </div>
             <div className="rightFooter">
                 <ul>
-					<li><a href="https://twitter.com"><i class="icon-twitter"></i></a></li>
-					<li><a href="https://facebook.com"><i class="icon-facebook"></i></a></li>
-					<li><a href="https://instagram.com"><i class="icon-instagram"></i></a></li>
-					<li><a href="https://pinterest.com"><i class="icon-pinterest"></i></a></li>
+					<li><a href="https://twitter.com/PersonalSal?lang=en"><i class="icon-twitter"></i></a></li>
+					<li><a href="https://www.facebook.com/salvador.cervantes.378537"><i class="icon-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/sal_v9/"><i class="icon-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/salvador-cervantes-55b97956/"><i class="icon-linkedin"></i></a></li>
 				</ul>
             </div>
         </div>
