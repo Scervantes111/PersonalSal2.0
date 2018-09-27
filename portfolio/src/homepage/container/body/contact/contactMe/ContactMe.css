@@ -6,7 +6,7 @@
 }
 
 .contactImage {
-    margin-right: 275px;
+    margin-right: 150px;
     margin-top: 2rem;
 }
 
@@ -18,4 +18,18 @@
     width: 700px;
     margin-top: 25px;
     font-size: 18px;
+}
+
+@media (max-width: 736px) {
+
+    .contactImage {
+        margin-right: 15px;
+    }
+    .contactImage img {
+        width: 250px;
+    }
+
+    .callback {
+        width: 350px;
+    }
 }

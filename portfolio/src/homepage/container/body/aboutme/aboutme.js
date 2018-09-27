@@ -12,6 +12,7 @@ const AboutMe = () => {
                 <p>another test</p>
                 <p>This is another test that is going to be relaly long This is another test that is going to be relaly long This is another test that is going to be relaly long This is another test that is going to be relaly long</p>
             </div>
+            <hr></hr>
         </div>
     );
 }

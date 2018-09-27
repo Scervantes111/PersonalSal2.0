@@ -6,6 +6,10 @@
   width: 600px;
   }
 
+  .App-intro hr {
+    margin-top: 40px;
+  }
+
   .aboutHeader{
     display: flex;
     justify-content: center;
@@ -13,4 +17,12 @@
 
   .aboutHeader h2 {
     font-weight: 400;
+  }
+
+  @media (max-width: 736px) {
+    .App-intro{
+      margin-left: 1rem;
+      width: 400px;
+      padding: 0 20px;
+    }
   }

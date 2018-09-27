@@ -67,3 +67,26 @@
 
 /* Importing Icons for Social Media */
 @import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+
+@media (max-width: 736px ) {
+    .leftFooter {
+        margin: 2rem 2rem;
+        padding-left: 10px;
+    }
+
+    .middleFooter {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .rightFooter {
+        padding-left: 40px;
+    }
+
+    .rightFooter ul {
+        margin-top: 25px;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+}

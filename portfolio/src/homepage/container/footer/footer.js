@@ -13,7 +13,7 @@ const Footer = () => {
                     Contact me:
                 </div>
                 <div>
-                    <p>Phone number</p>
+                    <p>Phone number:</p>
                     <p>678-221-6418</p>
                 </div>
                 <div>

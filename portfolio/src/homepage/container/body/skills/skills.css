@@ -95,3 +95,51 @@
     background-color: white;
     color: black;
 }
+
+
+@media (max-width: 736px) {
+    .skillContainer {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .skillBox {
+        width: 175px;
+        height: 250px;
+    }
+
+    .skillContent {
+        line-height: 225px;
+    }
+
+    .backContent {
+        line-height: 202px;
+    }
+}
+
+/*
+
+SMALLER THEN iPHONE PLUS 
+
+
+@media (max-width: 667px) {
+    .skillContainer {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .skillBox {
+        width: 175px;
+        height: 250px;
+    }
+
+    .skillContent {
+        line-height: 225px;
+    }
+
+    .backContent {
+        line-height: 202px;
+    }
+}
+
+*/
